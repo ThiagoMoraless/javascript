@@ -1,0 +1,21 @@
+@import "variables";
+.main{
+    height: 300vh;
+    background-color: black;
+    .main__divSubtitulo{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        & h1{
+            color: white;
+            text-align: center;
+            margin-top: 3rem;
+        }
+    }
+    .main__divCards{
+        
+        & img{
+        
+        }
+    }
+}

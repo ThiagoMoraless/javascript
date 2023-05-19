@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(../assets/img/italo-ferreira-surfs-pipeline.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.header .header__nav__div {
+  padding: 2rem;
+  margin-left: 6%;
+}
+.header .header__nav__div a {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  font-weight: 700;
+}
+.header .header__nav__div button {
+  font-size: 1rem;
+}
+.header .header__divTitulo {
+  margin-top: 2rem;
+}
+.header .header__divTitulo h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+.header .header__divP {
+  background-color: rgba(14, 13, 13, 0.231372549);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(1px);
+  margin: 5%;
+  padding: 5%;
+  margin-top: 10rem;
+}
+.header .header__divP p {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.main {
+  height: 300vh;
+  background-color: black;
+}
+.main .main__divSubtitulo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.main .main__divSubtitulo h1 {
+  color: white;
+  text-align: center;
+  margin-top: 3rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=estilos.css.map */

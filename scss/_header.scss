@@ -1,0 +1,42 @@
+@import "variables";
+.header{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../assets/img/italo-ferreira-surfs-pipeline.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    .header__nav__div{
+        padding: 2rem;
+        margin-left: 6%;
+        & a{
+            font-size: 2rem;
+            letter-spacing: 0.5rem;
+            font-weight: 700;
+        }
+        & button{
+            font-size: 1rem;
+        }
+    }
+    .header__divTitulo{
+        margin-top: 2rem;
+        & h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+    }
+    .header__divP{
+        background-color: rgba(14, 13, 13, 0.231372549);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(1px);
+        margin: 5%;
+        padding: 5%;
+        margin-top: 10rem;
+        & p{
+            text-align: center;
+            font-size: 3rem;
+        }
+    }
+}
