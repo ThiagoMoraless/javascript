@@ -54,6 +54,10 @@
   text-align: center;
   margin-top: 3rem;
 }
+.main .main__divCards img {
+  border: 0cap;
+}
+
 * {
   margin: 0;
   padding: 0;
